@@ -1,0 +1,22 @@
+uuid: 7007e317-964d-4608-8f46-2f73cb244396
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: DJUgtKKuRjS3hokOnOsC0kxLivpCJGnkcHcnFEQCE9E
+id: game_of_sql_breadcrumbs
+theme: game_of_sql
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }

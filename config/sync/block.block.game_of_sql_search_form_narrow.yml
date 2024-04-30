@@ -1,0 +1,23 @@
+uuid: 89987986-2105-4942-9d1c-81e052fb2638
+langcode: es
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: Aos3Mxe8DXBaAoLR9Z_k-Ioppddii9p2mTWNyBZ1kpA
+id: game_of_sql_search_form_narrow
+theme: game_of_sql
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (estrecho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

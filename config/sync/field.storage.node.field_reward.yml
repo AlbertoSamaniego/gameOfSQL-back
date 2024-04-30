@@ -1,0 +1,18 @@
+uuid: 40e9f976-30d5-4bdb-955e-4eb45a3636e0
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_reward
+field_name: field_reward
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+uuid: ad57e0fd-cac8-4100-ad51-5137c02a0acf
+langcode: es
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: 2seFHrDu1q8UxZgQjzz3ZfWm9ar7oiOuoa5sdJB_YC0
+id: game_of_sql_account_menu
+theme: game_of_sql
+region: secondary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menú de cuenta de usuario'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

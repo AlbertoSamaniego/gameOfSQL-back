@@ -1,0 +1,37 @@
+uuid: f7ef81fb-2159-4eb5-bf9a-972aa307905c
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.archievement.field_description
+    - field.field.node.archievement.field_image
+    - image.style.medium
+    - node.type.archievement
+  module:
+    - image
+    - user
+id: node.archievement.teaser
+targetEntityType: node
+bundle: archievement
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_description: true
+  langcode: true

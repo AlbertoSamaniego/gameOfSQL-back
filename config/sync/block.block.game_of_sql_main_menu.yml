@@ -1,0 +1,27 @@
+uuid: f5a7ba16-b897-461a-a2da-550a71f0a0df
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: eg_NLcc_8v6hN6PCB8WXdXVl36DIgWPc3sU-syBkhZo
+id: game_of_sql_main_menu
+theme: game_of_sql
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navegación principal'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

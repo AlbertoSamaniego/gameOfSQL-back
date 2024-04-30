@@ -1,0 +1,11 @@
+uuid: f8f4ac7e-259a-4294-9c7f-1de5ae61757e
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.archievement
+id: node.archievement
+target_entity_type_id: node
+target_bundle: archievement
+default_langcode: site_default
+language_alterable: false

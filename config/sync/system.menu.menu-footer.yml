@@ -1,0 +1,8 @@
+uuid: 5d3931d8-9d82-477d-9b7d-699d15abdb99
+langcode: es
+status: true
+dependencies: {  }
+id: menu-footer
+label: 'Menú footer'
+description: 'Menú del footer con las políticas'
+locked: false

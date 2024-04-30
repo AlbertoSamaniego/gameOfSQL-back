@@ -1,0 +1,20 @@
+.site-footer{
+    background-color: $primary-dark !important;
+
+    #block-game-of-sql-menufooter{
+        display: flex;
+        justify-content: center;
+
+        .nav-link{
+            color: $primary-light-light;
+            border-radius: 10px;
+            margin-right: 5px;
+            transition: background-color 0.4s ease-in-out;
+
+            &:hover{
+                background-color: $primary-light-light;
+                color: $primary-dark;
+            }
+        }
+    }
+}

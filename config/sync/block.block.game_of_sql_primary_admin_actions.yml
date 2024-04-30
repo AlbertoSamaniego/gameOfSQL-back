@@ -1,0 +1,20 @@
+uuid: 162d5279-726a-4d9c-bb4b-60ac296570f9
+langcode: es
+status: true
+dependencies:
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: cGTFb8r0vRZ3NNWprAg9QDlugPDRKBofTyy5QgvyaKg
+id: game_of_sql_primary_admin_actions
+theme: game_of_sql
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

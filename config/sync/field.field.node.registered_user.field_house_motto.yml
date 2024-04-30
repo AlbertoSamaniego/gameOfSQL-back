@@ -1,0 +1,21 @@
+uuid: 3566b84d-c9b4-4921-9dc1-e71d353dccd3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_house_motto
+    - node.type.registered_user
+id: node.registered_user.field_house_motto
+field_name: field_house_motto
+entity_type: node
+bundle: registered_user
+label: lema_casa
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Afilado y listo'
+default_value_callback: ''
+settings: {  }
+field_type: string

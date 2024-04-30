@@ -1,0 +1,37 @@
+uuid: 64f9d881-d1b6-49e2-b3e3-30fba7cd2bce
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.registered_user.field_archievements_unlock
+    - field.field.node.registered_user.field_character_name
+    - field.field.node.registered_user.field_character_nickname
+    - field.field.node.registered_user.field_email
+    - field.field.node.registered_user.field_house_motto
+    - field.field.node.registered_user.field_house_name
+    - field.field.node.registered_user.field_password
+    - field.field.node.registered_user.field_shield
+    - node.type.registered_user
+  module:
+    - user
+id: node.registered_user.teaser
+targetEntityType: node
+bundle: registered_user
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_archievements_unlock: true
+  field_character_name: true
+  field_character_nickname: true
+  field_email: true
+  field_house_motto: true
+  field_house_name: true
+  field_password: true
+  field_shield: true
+  langcode: true

@@ -1,0 +1,45 @@
+uuid: 4d8a88f4-ca26-4597-8155-1bae8f05a8a3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.shield.field_image
+    - field.field.node.shield.field_reward
+    - image.style.wide
+    - node.type.shield
+  module:
+    - image
+    - user
+id: node.shield.default
+targetEntityType: node
+bundle: shield
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_reward:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

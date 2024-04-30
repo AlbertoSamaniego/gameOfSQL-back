@@ -1,0 +1,21 @@
+uuid: e851c515-5f8a-4376-8a94-eaeb7e8b0f8d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_name
+    - node.type.registered_user
+id: node.registered_user.field_character_name
+field_name: field_character_name
+entity_type: node
+bundle: registered_user
+label: nombre_personaje
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Medger
+default_value_callback: ''
+settings: {  }
+field_type: string

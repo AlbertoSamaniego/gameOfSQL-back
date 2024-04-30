@@ -1,0 +1,19 @@
+uuid: 49fb5cea-0e1a-4e77-9da8-56e5cb1c7f52
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_shield
+field_name: field_shield
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

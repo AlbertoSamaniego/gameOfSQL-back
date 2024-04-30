@@ -1,0 +1,23 @@
+uuid: 991dd283-574f-4aa7-b55a-575f34138c0d
+langcode: es
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: N-lBUtgAlLdNeFart8_3gCXqwZouUX8SRoVLA4o6feE
+id: game_of_sql_search_form_wide
+theme: game_of_sql
+region: top_header_form
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (ancho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

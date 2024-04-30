@@ -1,0 +1,19 @@
+uuid: 31e281ed-cce0-41f5-b262-054c2b2b755b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.registered_user
+id: node.registered_user.field_email
+field_name: field_email
+entity_type: node
+bundle: registered_user
+label: correo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

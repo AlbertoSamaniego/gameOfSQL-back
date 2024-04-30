@@ -1,0 +1,22 @@
+uuid: 8cdf0afa-ed72-4a98-91b0-a30ffcc11301
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: XTCFsrN-slU29yM0f3AA56WrBxd53K__Cdb68V9k-0o
+id: game_of_sql_help
+theme: game_of_sql
+region: highlighted
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 0623f2c2-8678-45f6-a910-f6aab148335a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_house_name
+    - node.type.registered_user
+id: node.registered_user.field_house_name
+field_name: field_house_name
+entity_type: node
+bundle: registered_user
+label: nombre_casa
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Cerwyn
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 82fd614b-271f-43c0-a7c3-6809b14fbfb1
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: y9JIULGPhJRXSJC5oVPwRR6xbm1gRPNwicl_3lZsgX4
+id: game_of_sql_content
+theme: game_of_sql
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

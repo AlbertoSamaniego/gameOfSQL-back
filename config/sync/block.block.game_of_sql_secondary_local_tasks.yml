@@ -1,0 +1,22 @@
+uuid: 08dcb22e-42ac-4abb-a0e5-97229d8fa60d
+langcode: es
+status: true
+dependencies:
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: iK7XqpM6-5SQNitD7kDvmHdLSWGFw1VC0p12jbQXxP4
+id: game_of_sql_secondary_local_tasks
+theme: game_of_sql
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

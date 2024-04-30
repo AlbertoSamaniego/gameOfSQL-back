@@ -1,0 +1,91 @@
+uuid: 95d9bd9f-b2d6-4c7c-aae1-93f2b195d206
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.registered_user.field_archievements_unlock
+    - field.field.node.registered_user.field_character_name
+    - field.field.node.registered_user.field_character_nickname
+    - field.field.node.registered_user.field_email
+    - field.field.node.registered_user.field_house_motto
+    - field.field.node.registered_user.field_house_name
+    - field.field.node.registered_user.field_password
+    - field.field.node.registered_user.field_shield
+    - node.type.registered_user
+  module:
+    - user
+id: node.registered_user.default
+targetEntityType: node
+bundle: registered_user
+mode: default
+content:
+  field_archievements_unlock:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_character_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_character_nickname:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_house_motto:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_house_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_password:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_shield:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

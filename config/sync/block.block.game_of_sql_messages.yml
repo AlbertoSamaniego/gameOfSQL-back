@@ -1,0 +1,22 @@
+uuid: f4162256-ffc7-4bac-8f80-67ee2e9f25e9
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: rs7F0Ihnyxxs9SSlvfl2siV0sZ6_En4i2NJxkB2yZ6s
+id: game_of_sql_messages
+theme: game_of_sql
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

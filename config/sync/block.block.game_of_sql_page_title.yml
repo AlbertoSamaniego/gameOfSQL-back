@@ -1,0 +1,20 @@
+uuid: f3d9a69b-7252-4332-b5cc-8ee9152f9c22
+langcode: es
+status: true
+dependencies:
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: etujC5-Vy27zeOOSj7K41sZg23Gn4SEH94l4JWl21Mk
+id: game_of_sql_page_title
+theme: game_of_sql
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

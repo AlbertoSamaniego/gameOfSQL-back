@@ -1,0 +1,33 @@
+uuid: d5c6cf72-8268-41a1-ade6-457fa0106760
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shield
+    - node.type.registered_user
+    - node.type.shield
+  content:
+    - 'node:shield:14ec5389-797c-4f79-831b-2e72f804b378'
+id: node.registered_user.field_shield
+field_name: field_shield
+entity_type: node
+bundle: registered_user
+label: 'escudo establecido'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 14ec5389-797c-4f79-831b-2e72f804b378
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      shield: shield
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

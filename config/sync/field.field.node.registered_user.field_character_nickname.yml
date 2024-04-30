@@ -1,0 +1,19 @@
+uuid: 78d73ffd-4f3a-4c40-9e4c-6b688de30131
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_nickname
+    - node.type.registered_user
+id: node.registered_user.field_character_nickname
+field_name: field_character_nickname
+entity_type: node
+bundle: registered_user
+label: apodo_personaje
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

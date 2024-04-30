@@ -1,0 +1,18 @@
+uuid: 389b7624-f573-45f1-a3e8-7776295d954b
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: escudo
+type: shield
+description: 'Escudo del usuario'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

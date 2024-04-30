@@ -1,0 +1,25 @@
+uuid: 0a1ee45d-eba7-40eb-aef3-77ec70d13f01
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - game_of_sql
+_core:
+  default_config_hash: xuRm3r_FSZjX58fyrOxXFHlDKiaDF75iihxC14a5SGw
+id: game_of_sql_site_branding
+theme: game_of_sql
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

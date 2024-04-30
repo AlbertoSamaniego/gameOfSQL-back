@@ -1,0 +1,21 @@
+uuid: abe4fbdb-6330-4b60-8a9e-bbb4bfdcc340
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reward
+    - node.type.shield
+id: node.shield.field_reward
+field_name: field_reward
+entity_type: node
+bundle: shield
+label: recompensa
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean
