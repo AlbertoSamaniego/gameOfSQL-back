@@ -1,0 +1,25 @@
+uuid: bdfd4188-13cc-420b-a1ca-8a7ed27e0f4e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_premium_shields
+    - node.type.registered_user
+id: node.registered_user.field_premium_shields
+field_name: field_premium_shields
+entity_type: node
+bundle: registered_user
+label: 'escudos premium'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: premium_shields
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

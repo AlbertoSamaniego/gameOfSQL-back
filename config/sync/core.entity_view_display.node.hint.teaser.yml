@@ -1,0 +1,37 @@
+uuid: d1d1d569-d0fa-4cae-99e7-f34a9e41c2b0
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hint.field_body
+    - field.field.node.hint.field_image
+    - image.style.medium
+    - node.type.hint
+  module:
+    - image
+    - user
+id: node.hint.teaser
+targetEntityType: node
+bundle: hint
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body: true
+  langcode: true

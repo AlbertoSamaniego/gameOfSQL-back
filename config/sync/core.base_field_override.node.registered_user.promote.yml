@@ -1,0 +1,22 @@
+uuid: 6db96cb8-2fa1-4e1b-a3c3-454f4ab0f646
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.registered_user
+id: node.registered_user.promote
+field_name: promote
+entity_type: node
+bundle: registered_user
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

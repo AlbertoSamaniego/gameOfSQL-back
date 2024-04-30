@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.registered_user.field_house_motto
     - field.field.node.registered_user.field_house_name
     - field.field.node.registered_user.field_password
+    - field.field.node.registered_user.field_premium_shields
     - field.field.node.registered_user.field_shield
     - node.type.registered_user
   module:
@@ -78,6 +79,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_premium_shields:
+    type: options_buttons
+    weight: 26
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_shield:
     type: options_select

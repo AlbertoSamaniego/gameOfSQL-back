@@ -1,0 +1,21 @@
+uuid: da74b910-d211-4761-bf13-58bf4f22718f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_coordinates
+    - node.type.map_location
+  module:
+    - geolocation
+id: node.map_location.field_coordinates
+field_name: field_coordinates
+entity_type: node
+bundle: map_location
+label: coordenadas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

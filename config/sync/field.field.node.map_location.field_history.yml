@@ -1,0 +1,19 @@
+uuid: 3d53f1d2-77f4-413d-8b4f-0ba933628f79
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_history
+    - node.type.map_location
+id: node.map_location.field_history
+field_name: field_history
+entity_type: node
+bundle: map_location
+label: historia
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

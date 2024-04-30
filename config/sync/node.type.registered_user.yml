@@ -14,5 +14,5 @@ type: registered_user
 description: 'Usuario registrado en la aplicacion'
 help: ''
 new_revision: true
-preview_mode: 1
+preview_mode: 0
 display_submitted: false

@@ -30,7 +30,7 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: b35a6259-9dee-406e-ad32-f7188f4dc9c5
+    uuid: ''
     alt: 'Imagen del logro'
     title: 'Imagen del logro'
     width: 120

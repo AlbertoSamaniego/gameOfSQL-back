@@ -4,11 +4,15 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - node.type.registered_user
   module:
     - comment
     - contact
+    - exclude_node_title
     - file
     - filter
+    - media
+    - node
     - search
     - shortcut
     - system
@@ -23,8 +27,15 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create registered_user content'
+  - 'delete any registered_user content'
   - 'delete own files'
+  - 'delete own registered_user content'
+  - 'edit any registered_user content'
+  - 'edit own registered_user content'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
+  - 'use exclude node title'
   - 'use text format basic_html'
+  - 'view media'

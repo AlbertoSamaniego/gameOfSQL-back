@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.registered_user.field_house_motto
     - field.field.node.registered_user.field_house_name
     - field.field.node.registered_user.field_password
+    - field.field.node.registered_user.field_premium_shields
     - field.field.node.registered_user.field_shield
     - node.type.registered_user
   module:
@@ -33,5 +34,6 @@ hidden:
   field_house_motto: true
   field_house_name: true
   field_password: true
+  field_premium_shields: true
   field_shield: true
   langcode: true

@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: 0yJNd4uWv8TzhYEPQBDiApPL2e8ar88kBmQrzDjNCqc
+langcode: es
+nid_list: {  }
+translation_sync: true
+search: false
+type: hidden
+content_types:
+  archievement: none
+  article: none
+  page: none
+  registered_user: none
+  shield: none
+content_type_modes:
+  archievement: {  }
+  article: {  }
+  page: {  }
+  registered_user: {  }
+  shield: {  }

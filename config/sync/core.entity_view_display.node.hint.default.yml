@@ -1,0 +1,42 @@
+uuid: b1691ae2-b62a-4b50-9229-75a8b76333f0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.hint.field_body
+    - field.field.node.hint.field_image
+    - image.style.wide
+    - node.type.hint
+  module:
+    - image
+    - user
+id: node.hint.default
+targetEntityType: node
+bundle: hint
+mode: default
+content:
+  field_body:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

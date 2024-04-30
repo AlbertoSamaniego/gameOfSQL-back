@@ -1,0 +1,43 @@
+uuid: f87ae898-3bd1-4fd6-ae20-57c42ce326ad
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.map_location.field_coordinates
+    - field.field.node.map_location.field_er_image
+    - field.field.node.map_location.field_history
+    - field.field.node.map_location.field_image
+    - field.field.node.map_location.field_question
+    - image.style.medium
+    - node.type.map_location
+  module:
+    - image
+    - user
+id: node.map_location.teaser
+targetEntityType: node
+bundle: map_location
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_coordinates: true
+  field_er_image: true
+  field_history: true
+  field_question: true
+  langcode: true

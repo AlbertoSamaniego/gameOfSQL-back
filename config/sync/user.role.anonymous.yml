@@ -4,10 +4,14 @@ status: true
 dependencies:
   config:
     - filter.format.restricted_html
+    - node.type.registered_user
   module:
     - comment
     - contact
+    - exclude_node_title
     - filter
+    - media
+    - node
     - search
     - system
 _core:
@@ -20,5 +24,12 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'create registered_user content'
+  - 'delete any registered_user content'
+  - 'delete own registered_user content'
+  - 'edit any registered_user content'
+  - 'edit own registered_user content'
   - 'search content'
+  - 'use exclude node title'
   - 'use text format restricted_html'
+  - 'view media'

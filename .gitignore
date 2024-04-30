@@ -35,6 +35,7 @@
 *.sql
 /.editorconfig
 /.gitattributes
+/.gitignore
 
 .ddev/docker-compose.postgres.yaml
 .ddev/web-build/

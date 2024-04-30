@@ -1,0 +1,11 @@
+uuid: fb530581-602b-4ab3-8c44-055d3a740deb
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.map_location
+id: node.map_location
+target_entity_type_id: node
+target_bundle: map_location
+default_langcode: site_default
+language_alterable: false
