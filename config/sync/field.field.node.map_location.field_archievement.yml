@@ -1,0 +1,29 @@
+uuid: 6c023693-1544-45ee-96af-880597dda48d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archievement
+    - node.type.archievement
+    - node.type.map_location
+id: node.map_location.field_archievement
+field_name: field_archievement
+entity_type: node
+bundle: map_location
+label: logro
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      archievement: archievement
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

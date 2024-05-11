@@ -3,16 +3,20 @@ langcode: es
 status: true
 dependencies:
   config:
+    - node.type.archievement
     - node.type.article
+    - node.type.hint
+    - node.type.map_location
     - node.type.page
+    - node.type.registered_user
+    - node.type.shield
     - taxonomy.vocabulary.tags
   module:
-    - comment
     - contextual
     - exclude_node_title
     - file
+    - media
     - node
-    - path
     - system
     - taxonomy
     - toolbar
@@ -28,22 +32,41 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access toolbar'
-  - 'administer url aliases'
+  - 'create archievement content'
   - 'create article content'
+  - 'create hint content'
+  - 'create map_location content'
   - 'create page content'
+  - 'create registered_user content'
+  - 'create shield content'
   - 'create terms in tags'
-  - 'create url aliases'
+  - 'delete any archievement content'
+  - 'delete any article content'
+  - 'delete any file'
+  - 'delete any hint content'
+  - 'delete any map_location content'
+  - 'delete any page content'
+  - 'delete any registered_user content'
+  - 'delete any shield content'
   - 'delete article revisions'
   - 'delete own article content'
   - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'edit any archievement content'
+  - 'edit any article content'
+  - 'edit any hint content'
+  - 'edit any map_location content'
+  - 'edit any page content'
+  - 'edit any registered_user content'
+  - 'edit any shield content'
   - 'edit own article content'
-  - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'update any media'
   - 'use exclude node title'
   - 'view all revisions'
+  - 'view media'
   - 'view own unpublished content'
   - 'view the administration theme'

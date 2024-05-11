@@ -1,0 +1,28 @@
+uuid: 7c846cb8-e95d-48e6-8a50-8483ea71ac4f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_failed_required_points
+    - node.type.map_location
+id: node.map_location.field_failed_required_points
+field_name: field_failed_required_points
+entity_type: node
+bundle: map_location
+label: 'puntos fallados requeridos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      map_location: map_location
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

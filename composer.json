@@ -32,6 +32,7 @@
         "drupal/leaflet": "^10.2",
         "drupal/password_field": "^2.0",
         "drupal/pathauto": "^1.12",
+        "drupal/phpmailer_smtp": "^2.2",
         "drupal/restui": "^1.21",
         "drupal/structure_sync": "^2.0",
         "drupal/token": "^1.14",

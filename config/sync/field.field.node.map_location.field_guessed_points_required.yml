@@ -1,0 +1,28 @@
+uuid: 1caaf5bc-63b9-4843-b399-da422664c976
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_guessed_points_required
+    - node.type.map_location
+id: node.map_location.field_guessed_points_required
+field_name: field_guessed_points_required
+entity_type: node
+bundle: map_location
+label: puntos_acertados_requeridos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      map_location: map_location
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

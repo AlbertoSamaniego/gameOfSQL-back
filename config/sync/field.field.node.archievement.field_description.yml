@@ -1,24 +1,19 @@
-uuid: cd5039c5-757e-4388-bfc9-768c02bec859
+uuid: 8dd596a0-a24b-4fda-8d27-e52b18ac412c
 langcode: es
 status: true
 dependencies:
   config:
     - field.storage.node.field_description
-    - filter.format.basic_html
     - node.type.archievement
-  module:
-    - text
 id: node.archievement.field_description
 field_name: field_description
 entity_type: node
 bundle: archievement
-label: descripcion
+label: description
 description: ''
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  allowed_formats:
-    - basic_html
-field_type: text_long
+settings: {  }
+field_type: string

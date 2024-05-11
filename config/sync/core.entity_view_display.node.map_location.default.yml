@@ -3,22 +3,31 @@ langcode: es
 status: true
 dependencies:
   config:
+    - field.field.node.map_location.field_archievement
     - field.field.node.map_location.field_coordinates
-    - field.field.node.map_location.field_er_image
+    - field.field.node.map_location.field_failed_required_points
+    - field.field.node.map_location.field_guessed_points_required
     - field.field.node.map_location.field_history
-    - field.field.node.map_location.field_image
+    - field.field.node.map_location.field_level
     - field.field.node.map_location.field_question
-    - image.style.wide
+    - field.field.node.map_location.field_shield_reward
     - node.type.map_location
   module:
     - geolocation
-    - image
     - user
 id: node.map_location.default
 targetEntityType: node
 bundle: map_location
 mode: default
 content:
+  field_archievement:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
   field_coordinates:
     type: geolocation_latlng
     label: above
@@ -26,14 +35,21 @@ content:
     third_party_settings: {  }
     weight: 103
     region: content
-  field_er_image:
-    type: entity_reference_entity_view
+  field_failed_required_points:
+    type: entity_reference_label
     label: above
     settings:
-      view_mode: default
-      link: false
+      link: true
     third_party_settings: {  }
-    weight: 104
+    weight: 109
+    region: content
+  field_guessed_points_required:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 108
     region: content
   field_history:
     type: basic_string
@@ -42,16 +58,14 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_image:
-    type: image
-    label: hidden
+  field_level:
+    type: number_integer
+    label: above
     settings:
-      image_link: ''
-      image_style: wide
-      image_loading:
-        attribute: eager
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
-    weight: -1
+    weight: 107
     region: content
   field_question:
     type: basic_string
@@ -59,6 +73,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_shield_reward:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 110
     region: content
   links:
     settings: {  }

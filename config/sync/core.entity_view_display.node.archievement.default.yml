@@ -9,7 +9,6 @@ dependencies:
     - node.type.archievement
   module:
     - image
-    - text
     - user
 id: node.archievement.default
 targetEntityType: node
@@ -17,11 +16,12 @@ bundle: archievement
 mode: default
 content:
   field_description:
-    type: text_default
+    type: string
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 102
+    weight: 101
     region: content
   field_image:
     type: image

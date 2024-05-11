@@ -4,40 +4,34 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.map_location.field_archievement
     - field.field.node.map_location.field_coordinates
-    - field.field.node.map_location.field_er_image
+    - field.field.node.map_location.field_failed_required_points
+    - field.field.node.map_location.field_guessed_points_required
     - field.field.node.map_location.field_history
-    - field.field.node.map_location.field_image
+    - field.field.node.map_location.field_level
     - field.field.node.map_location.field_question
-    - image.style.medium
+    - field.field.node.map_location.field_shield_reward
     - node.type.map_location
   module:
-    - image
     - user
 id: node.map_location.teaser
 targetEntityType: node
 bundle: map_location
 mode: teaser
 content:
-  field_image:
-    type: image
-    label: hidden
-    settings:
-      image_link: content
-      image_style: medium
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: -1
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
 hidden:
+  field_archievement: true
   field_coordinates: true
-  field_er_image: true
+  field_failed_required_points: true
+  field_guessed_points_required: true
   field_history: true
+  field_level: true
   field_question: true
+  field_shield_reward: true
   langcode: true
